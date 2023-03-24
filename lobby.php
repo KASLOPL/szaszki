@@ -25,7 +25,7 @@ if(!isset($_SESSION['zalogowany']))
 </div>
 <div id="main">
     <br><br>
-    
+
     <div id="szachownica">
     <div class="box"><img src="figury/cz_w.png" style="margin-top: 5px;"></div>
     <div class="box czarny"><img src="figury/cz_s.png" style="margin-top: 5px;"></div>
@@ -115,9 +115,16 @@ if(!isset($_SESSION['zalogowany']))
 </div>
 <div id="zawartosc_div">
     <p id="zawartosc_p">
-    <?php 
-    echo '<a href="logout.php">wyloguj się</a><br>';
-    ?>
+        <?php
+        echo $_SESSION['login']." <br>twoje aktualne ELO: ".$_SESSION['elo']."<br>";
+        ?>
+    <form action="logout.php" method="post">
+        <input type="submit" value="Wyloguj się" name="rejestracja" class="przycisk">
+    </form>
+    <br><br>
+    <form action="do_gry.php" method="post">
+        <input type="submit" value="Rozpocznij grę" name="rejestracja" class="przycisk">
+    </form>
     </p>
 </div>
 </div>
