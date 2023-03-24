@@ -25,25 +25,30 @@ if(!isset($_SESSION['zalogowany']))
 </div>
 <div id="main">
     <br><br>
+    
     <div id="szachownica">
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
+    <div class="box"><img src="figury/cz_w.png" style="margin-top: 5px;"></div>
+    <div class="box czarny"><img src="figury/cz_s.png" style="margin-top: 5px;"></div>
+    <div class="box"><img src="figury/cz_g.png" style="margin-top: 5px;"></div>
+    <div class="box czarny"><img src="figury/cz_h.png" style="margin-top: 9px;"></div>
+    <div class="box"><img src="figury/cz_k.png" style="margin-top: 5px;"></div>
+    <div class="box czarny"><img src="figury/cz_g.png" style="margin-top: 5px;"></div>
+    <div class="box"><img src="figury/cz_s.png" style="margin-top: 5px;"></div>
+    <div class="box czarny"><img src="figury/cz_w.png" style="margin-top: 5px;"></div>
+
     <br>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
+
+    <div class="box czarny"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/cz_p.png" style="margin-top: 17px;"></div>
+
     <br>
+
     <div class="box"></div>
     <div class="box czarny"></div>
     <div class="box"></div>
@@ -52,7 +57,9 @@ if(!isset($_SESSION['zalogowany']))
     <div class="box czarny"></div>
     <div class="box"></div>
     <div class="box czarny"></div>
+
     <br>
+
     <div class="box czarny"></div>
     <div class="box"></div>
     <div class="box czarny"></div>
@@ -61,7 +68,9 @@ if(!isset($_SESSION['zalogowany']))
     <div class="box"></div>
     <div class="box czarny"></div>
     <div class="box"></div>
+
     <br>
+
     <div class="box"></div>
     <div class="box czarny"></div>
     <div class="box"></div>
@@ -70,7 +79,9 @@ if(!isset($_SESSION['zalogowany']))
     <div class="box czarny"></div>
     <div class="box"></div>
     <div class="box czarny"></div>
+
     <br>
+
     <div class="box czarny"></div>
     <div class="box"></div>
     <div class="box czarny"></div>
@@ -79,24 +90,28 @@ if(!isset($_SESSION['zalogowany']))
     <div class="box"></div>
     <div class="box czarny"></div>
     <div class="box"></div>
+
     <br>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
+
+    <div class="box"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+    <div class="box czarny"><img src="figury/b_p.png" style="margin-top: 17px;"></div>
+
     <br>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
-    <div class="box czarny"></div>
-    <div class="box"></div>
+
+    <div class="box czarny"><img src="figury/b_w.png" style="margin-top: 5px;"></div>
+    <div class="box"><img src="figury/b_s.png" style="margin-top: 5px;"></div>
+    <div class="box czarny"><img src="figury/b_g.png" style="margin-top: 5px;"></div>
+    <div class="box"><img src="figury/b_h.png" style="margin-top: 10px;"></div>
+    <div class="box czarny"><img src="figury/b_k.png" style="margin-top: 5px;"></div>
+    <div class="box"><img src="figury/b_g.png" style="margin-top: 5px;"></div>
+    <div class="box czarny"><img src="figury/b_s.png" style="margin-top: 5px;"></div>
+    <div class="box"><img src="figury/b_w.png" style="margin-top: 5px;"></div>
 </div>
 <div id="zawartosc_div">
     <p id="zawartosc_p">
