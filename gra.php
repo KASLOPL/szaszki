@@ -28,7 +28,7 @@ if(!isset($_SESSION['zalogowany']))
     <br><br>
 
     <div id="szachownica">
-    <div class="box" id="ah" onclick="ruch_figury(this.id)"><img src="figury/cz_w.png" style="margin-top: 5px;" id="ah" onclick="ruch_figury(this.id)"></div>
+    <div class="box"><img src="figury/cz_w.png" style="margin-top: 5px;" id="ah" onclick="ruch_figury(id)"></div>
     <div class="box czarny" id="bh" onclick="ruch_figury(this.id)"><img src="figury/nic.png" style="margin-top: 5px;" id="bh" onclick="ruch_figury(this.id)"></div>
     <div class="box" id="ch" onclick="ruch_figury(this.id)"><img src="figury/nic.png" style="margin-top: 5px;" id="ch" onclick="ruch_figury(this.id)"></div>
     <div class="box czarny" id="dh" onclick="ruch_figury(this.id)"><img src="figury/nic.png" style="margin-top: 5px;" id="dh" onclick="ruch_figury(this.id)"></div>
