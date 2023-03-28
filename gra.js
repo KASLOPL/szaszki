@@ -8,5 +8,5 @@ function ruch_figury(id_button)
     {
         pole_1 = id_button.src;
     }
-    xx.innerHTML = "oashf";
+    xx.innerHTML = pole_1;
 }
