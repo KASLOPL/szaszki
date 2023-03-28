@@ -6,7 +6,10 @@ function ruch_figury(id_button)
     var pole2 = false;
     if(pole1 == true)
     {
-        pole_1 = id_button.src;
+        pole_1 = id_button;
+        pole1 = false;
+        pole2 = true;
     }
-    xx.innerHTML = "oashf";
+
+    xx.innerHTML = pole_1;
 }

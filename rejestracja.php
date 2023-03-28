@@ -95,7 +95,7 @@ if(isset($_POST['email']) && isset($_POST['login']) && isset($_POST['haslo']) &&
 
             if($walidacja == true)
     {
-        if($baza->query("insert into gracze values (null, '$login', '$haslo_hash', 1000,'$email')"))
+        if($baza->query("insert into gracze values (null, '$login', '$haslo_hash', '$email',1000)"))
         {
             $_SESSION['udana_rejestracja'] = true;
             header('location: witamy.php');
