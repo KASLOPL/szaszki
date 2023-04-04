@@ -103,6 +103,8 @@
   }
 
   .czarny {
+    width: 80px;
+    height: 80px;
     background-color: #5468ff;
   }
 
@@ -111,4 +113,8 @@
   margin-left: 10%;
   width: 43%;
   height: 640px;
+}
+
+.figura{
+  margin-top: 17px;
 }

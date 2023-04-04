@@ -28,7 +28,7 @@ if(!isset($_SESSION['zalogowany']))
     <br><br>
 
     <div id="szachownica">
-    <div class="box"><img src="figury/cz_w.png" style="margin-top: 17px;" id="ah" onclick="ruch_figury(ah)"></div>
+    <div class="box"><img src="figury/cz_w.png"  id="wierza" class="figura"></div>
     <div class="box czarny"></div>
     <div class="box"></div>
     <div class="box czarny"></div>
